@@ -1,0 +1,40 @@
+.order-div{
+    display: flex;
+    height: 180px;
+    width: 80%;
+    margin: 5% 10%;
+    border-radius: 20px;
+    align-items: center;
+    padding: 120px 30px;
+    justify-content:space-between;
+    background-color: rgb(241, 238, 238);
+}
+.text{
+    margin-top: 10%;
+}
+.order-div img{
+    width:140px;
+    height:150px;
+    margin-left:30px;
+}
+@media (max-width: 760px){
+    .order-div{
+        width: 90%;
+        margin: 2% 5%;
+        padding: 150px 2px;
+    }
+    .order-div img{
+        width: 80px;
+        margin-left: 10px;
+    }
+    .order-div h4{
+        font-size: 18px;
+    }
+    .order-div h3{
+        font-size: 18px;
+    }
+    .order-div h2{
+        font-size: 22px;
+    }
+
+}

@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 60px;
+}
+.section-1{
+    width: 40%;
+}
+.section-2{
+    display: flex;
+    width: 60%;
+    justify-content:center;
+    align-items: center;
+    list-style-type: none;
+}
+.section-2 li{
+    padding: 0px 20px;
+    margin: 0px 10px;
+    font-size: 18px;
+    font-weight: 500;
+} 
+.header h2{
+    font-weight:900;
+}
+@media (max-width: 760px){
+    .section-2{
+       margin-top: 30px;
+       width: 100%;
+    }
+    .section-2 li{
+        padding: 0px 10px;
+        margin: 0px 5px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .section-1{
+        margin-left: 26%;
+    }
+    button{
+        font-size: 12px;
+        padding:2px 10px;
+        margin-right: 20px;
+    }
+  }

@@ -1,0 +1,22 @@
+.product-checkout{
+    margin-top: 60px;
+    padding-top: 10px;
+    border-radius: 5px;
+    height: 290px;
+    width: 60%;
+    margin-left:20% ;
+    color:rgb(53, 37, 123) ;
+    background-color:#f3f3f3 ;
+    font-size: 20px;
+}
+table{
+    width: 90%;
+    margin-top: 10%;
+}
+.order{
+    margin-top:20px;
+    color:white;
+    background:rgb(53, 37, 123);
+    padding: 6px 12px;
+    border-radius: 5px;
+}

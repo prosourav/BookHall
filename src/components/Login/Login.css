@@ -1,0 +1,10 @@
+.login{
+   padding: 10px;
+   border: 2px solid;
+   width: 20%;
+   margin: 2% 40%;
+   border-radius: 6px;
+   color: whitesmoke;
+   background:rgb(53, 37, 123);
+   cursor: pointer;
+}
